@@ -7,6 +7,6 @@ echo "neofetch already"
 else
 echo "installing neofetch"
 apt install neofetch
-sed '$ a\
-> neofetch' $bashrc ;
+sed -i '$a  neofetch --ascii_distro arch_small' $bashrc ;
+sed -i '1i clear' $bashrc ;
 fi
