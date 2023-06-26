@@ -16,6 +16,6 @@ curl -O -s https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/font.
 mv font.ttf .termux/font.ttf
 am broadcast --user 0 -a com.termux.app.reload_style com.termux >> /dev/null
 fi
-echo "restart termux"
 rm i.sh
 exec bash
+echo "restart termux"
