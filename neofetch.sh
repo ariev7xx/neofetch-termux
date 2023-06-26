@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-apt update >> /dev/null
+echo "update repository.."
+apt update -qqq
 bashrc=$PREFIX/etc/bash.bashrc
 if grep "neofetch" $bashrc
 then
