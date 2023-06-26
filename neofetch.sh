@@ -19,5 +19,6 @@ fi
 rm i.sh
 echo "restart termux"
 read anu
+read
 exit
 exit
