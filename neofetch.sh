@@ -7,7 +7,7 @@ then
 echo "neofetch already"
 else
 echo "installing neofetch"
-apt install neofetch git perl -y
+apt install neofetch git perl -y &> /dev/null
 curl -O -s https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.bashrc
 cat bash.bashrc > $bashrc
 rm bash.bashrc
