@@ -17,7 +17,7 @@ mv font.ttf .termux/font.ttf
 am broadcast --user 0 -a com.termux.app.reload_style com.termux >> /dev/null
 fi
 rm i.sh
-read
 echo "restart termux"
+read anu
 exit
 exit
