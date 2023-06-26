@@ -1,5 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 apt update
+bashrc=$PREFIX/etc/bash.bashrc
 if grep "neofetch" $bashrc
 then
 echo "neofetch already"
