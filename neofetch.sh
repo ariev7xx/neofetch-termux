@@ -18,4 +18,4 @@ echo "installing font"
 curl -O -s https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/font.ttf
 mv font.ttf .termux/font.ttf
 am broadcast --user 0 -a com.termux.app.reload_style com.termux >> /dev/null
-exec bash
+source $bashrc
