@@ -11,3 +11,5 @@ apt install git
 curl -O https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.bashrc
 cat bash.bashrc > $bashrc
 fi
+
+am broadcast --user 0 -a com.termux.app.reload_style com.termux
