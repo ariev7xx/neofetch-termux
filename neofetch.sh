@@ -20,4 +20,3 @@ rm i.sh
 echo "restart termux"
 read
 exit
-exit
