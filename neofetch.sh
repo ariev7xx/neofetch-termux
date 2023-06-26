@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-apt update
+apt update >> /dev/null
 bashrc=$PREFIX/etc/bash.bashrc
 if grep "neofetch" $bashrc
 then
@@ -8,7 +8,7 @@ else
 echo "installing neofetch"
 apt install neofetch
 apt install git
-curl -O https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.bashrc
+curl -O -s https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.bashrc
 cat bash.bashrc > $bashrc
 rm bash.bashrc
 fi
