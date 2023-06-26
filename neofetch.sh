@@ -12,6 +12,7 @@ curl -O https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.bas
 cat bash.bashrc > $bashrc
 rm bash.bashrc
 fi
+echo "installing font"
 curl -O https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/font.ttf
 mv font.ttf .termux/font.ttf
 am broadcast --user 0 -a com.termux.app.reload_style com.termux
