@@ -2,7 +2,7 @@
 echo "update repository.."
 apt update -qqq
 bashrc=$PREFIX/etc/bash.bashrc
-if grep "neofetch" $bashrc
+if [grep "neofetch" $bashrc];
 then
 echo "neofetch already"
 else
