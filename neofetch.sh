@@ -9,5 +9,5 @@ echo "installing neofetch"
 apt install neofetch
 apt install git
 curl -O https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.bashrc
-cat $HOME/bash.bashrc > $bashrc
+cat bash.bashrc > $bashrc
 fi
