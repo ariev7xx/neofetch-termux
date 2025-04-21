@@ -29,7 +29,6 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 	}
 fi
-neofetch --ascii_distro arch_small
 
 GREY="\[\e[48;5;240m\]\[\e[38;5;250m\]"
 GREY_END="\[\e[48;5;2m\]\[\e[38;5;240m\]"
