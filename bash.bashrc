@@ -1,4 +1,3 @@
-clear
 # Command history tweaks:
 # - Append history instead of overwriting
 #   when shell exits.
