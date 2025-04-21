@@ -12,6 +12,7 @@ curl -O -s https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/bash.
 cp $bashrc bash.bashrc.bak
 cat bash.bashrc > $bashrc
 rm bash.bashrc
+rm $PREFIX/etc/motd
 echo "neofetch --ascii_distro arch_small" > $PREFIX/etc/profile.d/motd.sh
 chmod + x $PREFIX/etc/profile.d/motd.sh
 echo "installing font...."
