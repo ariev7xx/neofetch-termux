@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+cd
 echo "update repository.."
 apt update -qqq
 bashrc=$PREFIX/etc/bash.bashrc
