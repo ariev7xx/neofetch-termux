@@ -5,6 +5,12 @@ curl -so i.sh https://raw.githubusercontent.com/ariev7xx/neofetch-termux/main/ne
 ```
 # oh-my-zsh
 
+install
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 plugin oh-my-zsh
 
 ```bash
