@@ -26,7 +26,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 configuration
 
 ```bash
-cd && sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g' .zshrc
+cd && sed -i 's/plugins=(/plugins=(zsh-autosuggestions zsh-syntax-highlighting/g' .zshrc
 ```
 **theme zsh powerlevel10k**
 
