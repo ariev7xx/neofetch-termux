@@ -25,16 +25,21 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 
 - zsh-fast-syntax-highlighting
- 
-	`git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`
+
+```bash
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+```
 	
  - zsh-autocomplete
 	
-	`git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`
-configuration`
+```bash
+git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+```
+
+configuration
 
 ```bash
-cd && sed -i 's/plugins=(/plugins=(zsh-autosuggestions zsh-syntax-highlighting /g' .zshrc
+cd && sed -i 's/plugins=(/plugins=(zsh-autocomplete fast-syntax-highlighting zsh-autosuggestions zsh-syntax-highlighting /g' .zshrc
 ```
 **theme zsh powerlevel10k**
 
